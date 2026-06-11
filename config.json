@@ -1,0 +1,24 @@
+{
+  "files": {
+    "lecturer_excel": "KHKTMT.xlsx",
+    "lecturer_vector": "lecturer_expertise_vectors.pt",
+    "project_excel": "ĐACN.xlsx",
+    "role_history_excel": "Tổng hợp Chủ tịch + Thư Ký.xlsx",
+    "output_dir": "ket_qua_phan_cong_hoi_dong_DACN",
+    "stats_output": "ket_qua_phan_cong_hoi_dong_DACN/thong_ke_giang_vien.xlsx"
+  },
+  "constraints": {
+    "committee_topic_min": 3,
+    "committee_topic_max": 7,
+    "min_members": 3,
+    "max_members": 3
+  },
+  "ga_params": {
+    "population_size": 180,
+    "generations": 240,
+    "tournament_size": 3,
+    "crossover_rate": 0.9,
+    "mutation_rate": 0.3,
+    "random_seed": 42
+  }
+}
